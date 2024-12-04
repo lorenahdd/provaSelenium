@@ -12,6 +12,6 @@ navegador = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().instal
 
 
 navegador.get('https://www.drogasil.com.br/')
-time.sleep(10) #para a página carregar
+time.sleep(10) #espera a página carregar
 navegador.find_element(By.XPATH, ('//*[@id="onetrust-reject-all-handler"]')).click() #rejeitar cookies
 
