@@ -1,3 +1,5 @@
+#fiz um scrip utilizando o webdriver
+
 from selenium import webdriver 
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from selenium.webdriver.common.by import By
